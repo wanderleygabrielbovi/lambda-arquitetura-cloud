@@ -24,7 +24,7 @@ def lambda_handler(event, context):
     if not cpf:
         return {
             "statusCode": 400,
-            "body": json.dumps({"error": "CPF not provided in query string. Use ?cpf=SEUCNPJ"})
+            "body": json.dumps({"error": "CPF not provided in query string. Use ?cpf=SEUCPF"})
         }
 
     is_valid = validate_cpf(cpf)
