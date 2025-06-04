@@ -78,3 +78,4 @@ Licença
 
 Projeto para fins educacionais conforme a disciplina Arquitetura em Cloud.
 
+# lambda-arquitetura-cloud
